@@ -99,3 +99,40 @@ button {
     height: 250px;
 }
 
+.information-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 50px 25px 50px;
+}
+
+.information-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.information-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.information-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-basis: 20%;
+}
+
+.info-box {
+    width: 120px;
+    height: 120px;
+    border: solid 3px #3882f6;
+    border-radius: 10px;
+}
