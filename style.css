@@ -131,8 +131,8 @@ button {
 }
 
 .info-box {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border: solid 3px #3882f6;
     border-radius: 10px;
 }
