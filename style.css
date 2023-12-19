@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Roboto';
 }
 
 .page-container {
@@ -11,5 +12,32 @@ body {
     background-color: #1F2937;
     display: flex;
     justify-content: space-evenly;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.logo-container h1 {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.header-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 30px
+}
+
+.header-links a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
 }
 
