@@ -198,3 +198,10 @@ button {
 .sign-up-container button {
     border: solid 1px white;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 10px;
+}
