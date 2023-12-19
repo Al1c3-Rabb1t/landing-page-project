@@ -12,6 +12,7 @@ body {
     background-color: #1F2937;
     display: flex;
     justify-content: space-evenly;
+    flex: 1;
 }
 
 .logo-container {
@@ -39,5 +40,62 @@ body {
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
+}
+
+.subtext-section {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+    flex: 2;
+    padding: 100px;
+}
+
+.subtext-text-content {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.subtext-text-content h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    padding: 0px;
+    margin: 0px;
+}
+
+.subtext-text-content p {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 1px;
+    margin: 0px;
+}
+
+button {
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #f9faf8;
+    background-color: #3882f6;
+    width: 90px;
+    height: 25px;
+    border: solid 1px #3882f6;
+    border-radius: 5px;
+}
+
+.subtext-img {
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.subtext-img img {
+    min-width: 0;
+    height: 250px;
 }
 
